@@ -12,7 +12,7 @@ import type {
 } from "@/types";
 
 export const IMAGES = {
-  hero: "https://dala-prod-public-storage.s3.eu-west-1.amazonaws.com/generated-images/60e08d46-7a4f-4844-b254-e3d1a4e086fe/hero-stadium-b3686dc3-1790244142384.webp",
+ https://scontent.fnbo19-2.fna.fbcdn.net/v/t39.99422-6/727814797_1527557705700704_4325288311078273770_n.png?stp=dst-jpg_tt6&cstp=mx1008x1062&ctp=s1008x1062&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=JoZbbnk_QEMQ7kNvwHCcoKl&_nc_oc=Adp6YcAvipss_bpNkXoSA5GbLv7qM45YzyVIDTrPLSM2VRPac-4G-1FIaoMOGfd3185b1EHts6pEEY-2aOJbzhvF&_nc_zt=14&_nc_ht=scontent.fnbo19-2.fna&_nc_gid=5ru4z0ifDd617aMucYVoKA&_nc_ss=7b2a8&oh=00_AQISmxivAYsoXb-ICg8dnEB5nglxD3hKKHtLnQcUlRwbaA&oe=6ABADA04",
   crest: "https://dala-prod-public-storage.s3.eu-west-1.amazonaws.com/generated-images/60e08d46-7a4f-4844-b254-e3d1a4e086fe/club-crest-9e844462-1790244141778.webp",
   trophy: "https://dala-prod-public-storage.s3.eu-west-1.amazonaws.com/generated-images/60e08d46-7a4f-4844-b254-e3d1a4e086fe/championship-trophy-c553b118-1790244141289.webp",
 };
@@ -29,7 +29,7 @@ export const CLUB = {
     "In its debut campaign the club etched its name into history, lifting the Luac Akook Yieu / Luac Malou First Edition Trophy. That title is not the finish line - it is the foundation of a dynasty the whole community is building together.",
   ],
   mission:
-    "To grow champions on and off the pitch through sportsmanship, unity, resilience, and community empowerment in Hai Referendum and beyond.",
+    "To grow champions on and off the pitch through sportsmanship, unity, resilience, and community empowerment.",
 };
 
 export const NAV_LINKS: NavLink[] = [
@@ -142,21 +142,6 @@ export const SQUAD: Player[] = [
     accent: "from-amber-300 to-orange-500",
   },
   {
-    id: "chol-thon",
-    name: "Chol Thon",
-    role: "Attacking Midfielder",
-    position: "Midfielder",
-    number: 10,
-    bio: "Tournament MVP. The creative spark whose vision and goals carried Alier Geng to glory.",
-    badges: ["Best Player / MVP", "Playmaker"],
-    stats: [
-      { label: "Goals", value: "7" },
-      { label: "Assists", value: "8" },
-      { label: "Key Passes", value: "29" },
-    ],
-    accent: "from-yellow-400 to-amber-600",
-  },
-  {
     id: "malou-nyok",
     name: "Malou Nyok",
     role: "Striker",
@@ -186,11 +171,11 @@ export const SQUAD: Player[] = [
     accent: "from-emerald-500 to-green-700",
   },
   {
-    id: "adem-james",
-    name: "Adem James",
-    role: "Centre Back",
+    id: "monywut-athor",
+    name: "Monywut Athor",
+    role: "Right Back",
     position: "Defender",
-    number: 4,
+    number: 22,
     bio: "The rock at the back. Aerial dominator and last line before Abiey Luat.",
     badges: ["Iron Wall"],
     stats: [
@@ -201,8 +186,8 @@ export const SQUAD: Player[] = [
     accent: "from-teal-400 to-emerald-700",
   },
   {
-    id: "buk-deng",
-    name: "Buk Deng",
+    id: "padak-nyok",
+    name: "Padak Nyok",
     role: "Right Winger",
     position: "Forward",
     number: 7,
@@ -216,11 +201,11 @@ export const SQUAD: Player[] = [
     accent: "from-amber-300 to-yellow-600",
   },
   {
-    id: "lak-peter",
-    name: "Lak Peter",
+    id: "duk-athor",
+    name: "Dut Athor",
     role: "Left Back",
     position: "Defender",
-    number: 3,
+    number: 20,
     bio: "Tireless engine down the left, defending with grit and overlapping with flair.",
     badges: ["Workhorse"],
     stats: [
@@ -254,15 +239,14 @@ export const FINAL_MATCH: MatchResult = {
   opponent: "Kuec Atong",
   competition: "Luac Akook Yieu / Luac Malou First Edition Final",
   date: "February 2, 2026",
-  score: "2 - 1",
+  score: "2 - 0",
   penalties: "Decisive title won after a golden final",
   recap:
     "Under the floodlights of Hai Referendum, Alier Geng FA wrote history. Chol Thon threaded the opener, Malou Nyok doubled the lead with a poacher's finish, and Abiey Luat sealed the night with a fingertip save in stoppage time to keep the Golden Glove clean. When the final whistle blew, the neighborhood became champions of the First Edition.",
   timeline: [
-    { minute: "12'", event: "GOAL! Chol Thon curls home from the edge of the box (1-0).", kind: "goal" },
+    { minute: "12'", event: "GOAL! Chol Aloung curls home from the edge of the box (1-0).", kind: "goal" },
     { minute: "38'", event: "Huge double save from Abiey Luat keeps Kuec Atong level.", kind: "save" },
     { minute: "55'", event: "GOAL! Malou Nyok pounces on the rebound (2-0).", kind: "goal" },
-    { minute: "71'", event: "Kuec Atong pull one back from a corner.", kind: "key" },
     { minute: "88'", event: "Deng Hakim wins a crunching tackle to break the counter.", kind: "card" },
     { minute: "90+3'", event: "Abiey Luat tips the equaliser onto the bar. FULL TIME: Champions!", kind: "whistle" },
   ],
@@ -297,14 +281,6 @@ export const AWARDS: Award[] = [
     category: "Golden Glove",
     detail: "34 saves and a decisive stoppage-time save in the final.",
     icon: "glove",
-  },
-  {
-    id: "a-mvp",
-    recipient: "Chol Thon",
-    award: "Best Player",
-    category: "Tournament MVP",
-    detail: "7 goals and 8 assists, the creative heartbeat of the champions.",
-    icon: "trophy",
   },
   {
     id: "a-boot",
@@ -375,7 +351,7 @@ export const SOCIALS: Social[] = [
 
 export const SUBJECT_OPTIONS = [
   "General Enquiry",
-  "Join the Academy",
+  "Join the Team",
   "Match & Ticketing",
   "Sponsorship",
   "Community Event",
@@ -392,7 +368,7 @@ export const CHAT_PRESETS: ChatPreset[] = [
     id: "p2",
     label: "What makes Alier Geng champions?",
     answer:
-      "Unity and resilience. Hai Referendum raised us. We defend as ten and attack as one, and we never believe the game is over. That is the champion DNA of Alier Geng FA.",
+      "Unity and resilience. We defend as ten and attack as one, and we never believe the game is over. That is the champion DNA of Alier Geng FA.",
   },
   {
     id: "p3",
